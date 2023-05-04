@@ -1,0 +1,3 @@
+testcases\LoginTestcaseSwag.class
+pages\SwagLoginPage.class
+testcases\SwagBaseClass.class

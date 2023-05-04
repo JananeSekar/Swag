@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-04T05:51:28Z" name="Suite" finished-at="2023-05-04T05:51:33Z" duration-ms="5154">
+    <groups>
+    </groups>
+    <test started-at="2023-05-04T05:51:28Z" name="Test" finished-at="2023-05-04T05:51:33Z" duration-ms="5154">
+      <class name="testcases.LoginTestcaseSwag">
+        <test-method is-config="true" signature="ReportSetup()[pri:0, instance:testcases.LoginTestcaseSwag@43b9fd5]" started-at="2023-05-04T05:51:28Z" name="ReportSetup" finished-at="2023-05-04T05:51:28Z" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportSetup -->
+        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginTestcaseSwag@43b9fd5]" started-at="2023-05-04T05:51:28Z" name="SetUp" finished-at="2023-05-04T05:51:32Z" duration-ms="3222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.LoginTestcaseSwag.test1() throws com.codoid.products.exception.FilloException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="test1()[pri:0, instance:testcases.LoginTestcaseSwag@43b9fd5]" started-at="2023-05-04T05:51:32Z" name="test1" finished-at="2023-05-04T05:51:32Z" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.LoginTestcaseSwag@43b9fd5]" started-at="2023-05-04T05:51:32Z" name="TearDown" finished-at="2023-05-04T05:51:32Z" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method signature="test2(org.jsoup.Connection$Method)[pri:0, instance:testcases.LoginTestcaseSwag@43b9fd5]" started-at="2023-05-04T05:51:32Z" name="test2" finished-at="2023-05-04T05:51:32Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [test2] with [class org.jsoup.Connection$Method].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [test2] with [class org.jsoup.Connection$Method].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:635)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="ReportClean()[pri:0, instance:testcases.LoginTestcaseSwag@43b9fd5]" started-at="2023-05-04T05:51:32Z" name="ReportClean" finished-at="2023-05-04T05:51:33Z" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportClean -->
+      </class> <!-- testcases.LoginTestcaseSwag -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
